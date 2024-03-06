@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
@@ -16,10 +16,10 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Precios</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#prices">Precios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,7 +39,7 @@
             </div>
         </div>
     </header>
-    <main class="services container">
+    <main class="services container" id="services">
         <a href="#" class="info">Tiempo Real</a>
         <h2>Nuestros Servicios</h2>
         <div class="services-content">
@@ -81,7 +81,7 @@
             </div>
         </div>
     </main>
-    <section class="usuarios">
+    <section class="usuarios" id="usuarios">
         <img src="images/wave1.svg" class="wave-1" alt="">
         <img src="images/wave2.svg" class="wave-2" alt="">
         <div class="usuario-txt container">
@@ -96,7 +96,7 @@
             <h3>100.000</h3>
         </div>
     </section>
-    <section class="app container">
+    <section class="app container" id="productos">
         <div class="app-1">
             <img src="images/app.svg" alt="">
         </div>
@@ -112,7 +112,7 @@
             <a href="#" class="btn-1">Informacion</a>
         </div>
     </section>
-    <section class="prices-sec">
+    <section class="prices-sec" id="prices">
         <div class="prices container">
             <div class="price">
                 <h3>Basic</h3>
@@ -146,14 +146,14 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contacto">
         <div class="footer-1 container">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#usuarios">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
         <div class="footer-2">
